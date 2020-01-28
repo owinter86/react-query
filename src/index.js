@@ -1,7 +1,7 @@
 import React from 'react'
 
 export let queries = []
-const cancelledError = {}
+const cancelledError = null
 export let globalStateListeners = []
 let uid = 0
 const configContext = React.createContext()
